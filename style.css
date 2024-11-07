@@ -5,7 +5,7 @@
 
 body{
     background-size: 500% 100%;
-    background-image: linear-gradient( 45deg, #9deee3, #f103e5, #11caf8 );
+    background-image: linear-gradient( 45deg, #818181, #3b67df, #79921d );
     animation: degrade-animado 2s infinite alternate;
     background-repeat: no-repeat;
     background-attachment: fixed;
