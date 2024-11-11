@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -5,7 +6,7 @@
 
 body{
     background-size: 500% 100%;
-    background-image: linear-gradient( 45deg, #818181, #3b67df, #79921d );
+    background-image: linear-gradient( 45deg, #000000, #051030, #303030 );
     animation: degrade-animado 2s infinite alternate;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,8 +17,28 @@ body{
     width: 100%;
     height: 100vh;
     align-items: center;
-    margin: 0 auto;
     display: flex;
+}
+
+.titulo{
+    width: 83vh;
+    padding: 10vh;
+    justify-content: center;   
+    align-items: center;
+}
+
+.C-ti{
+    width: 80vh;
+    background: #1e1f1d;
+    border-radius: 15px;
+}
+
+h1{
+    color:  rgb(216, 216, 216);
+}
+
+.FOTOS img{
+    width: 100px;
 }
 
 @keyframes degrade-animado{
